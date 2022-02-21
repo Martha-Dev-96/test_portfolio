@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Lora', serif;
+}
+nav{
+    background-color: rgb(78, 3, 3);
+}
+nav ul{
+    /* padding: 3px; */
+}
+nav ul li{
+    display: flex;
+    justify-content: right;
+   
+}
+nav ul #logo{
+    font-size: 20px;
+    margin-left: 70px;
+    color: blue;
+
+}
+nav ul #letterc{
+    color: white;
+    font-size: 25px;
+}
+
+nav li a .iconfiy{
+    color: rgb(13, 5, 128);
+   font-size: 40px;
+   display: block;
+  text-decoration: none;
+  align-items: center;
+}
+/* li >.iconify{
+    width: 25px;
+    height: 25px;
+    margin-left: 200px;
+    border: 2px solid black;
+    /* background-color: rgb(222, 222, 226); */
+    /* border-radius: 50%;
+    padding: 6px; */
+    /* float: left; */
+    
+} */
